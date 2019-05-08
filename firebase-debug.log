@@ -1,0 +1,25 @@
+[debug] [2019-05-08T11:18:31.283Z] ----------------------------------------------------------------------
+[debug] [2019-05-08T11:18:31.300Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ellis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2019-05-08T11:18:31.301Z] CLI Version:   6.8.0
+[debug] [2019-05-08T11:18:31.302Z] Platform:      win32
+[debug] [2019-05-08T11:18:31.302Z] Node Version:  v11.10.0
+[debug] [2019-05-08T11:18:31.309Z] Time:          Wed May 08 2019 12:18:31 GMT+0100 (British Summer Time)
+[debug] [2019-05-08T11:18:31.310Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-08T11:18:31.371Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-08T11:18:31.374Z] > authorizing via signed-in user
+[debug] [2019-05-08T11:18:31.374Z] [iam] checking project dob-finder-f9d75 for permissions ["firebase.projects.get"]
+[debug] [2019-05-08T11:18:31.386Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dob-finder-f9d75:testIamPermissions  
+
+[debug] [2019-05-08T11:18:32.343Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-08T11:18:32.352Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dob-finder-f9d75  
+ 
+[debug] [2019-05-08T11:18:33.085Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\codeacademey\date-of-birth-finder'...
+[info] 
+[debug] [2019-05-08T11:18:33.122Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/513728979692/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-08T11:18:33.514Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
